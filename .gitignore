@@ -1,0 +1,122 @@
+###############################################
+# PYTHON
+###############################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.db
+*.sqlite
+*.egg-info/
+*.egg
+*.log
+*.tmp
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Pydantic / FastAPI / Alembic
+instance/
+migrations/
+alembic/
+alembic.ini
+
+# If using DB migrations in version control, comment migrations/ above.
+
+###############################################
+# NODE / JAVASCRIPT / TYPESCRIPT
+###############################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-store/
+.eslintcache
+# If you want lockfiles tracked, uncomment the ones you need.
+
+###############################################
+# FRONTEND BUILD OUTPUT
+###############################################
+dist/
+build/
+.out/
+.next/
+.vercel/
+.nuxt/
+storybook-static/
+coverage/
+.vite/
+vite.config.timestamp-*
+*.tsbuildinfo
+
+###############################################
+# ENV FILES / SECRETS
+###############################################
+.env
+.env.*
+!.env.example
+secrets.json
+keys.json
+credentials/
+
+###############################################
+# DOCKER
+###############################################
+docker-compose.override.yml
+docker-data/
+volumes/
+*.pid
+*.pid.lock
+
+###############################################
+# CACHE / TEMP / EDITOR CRAP
+###############################################
+.cache/
+tmp/
+temp/
+*.cache
+*.swp
+*.swo
+*~
+*.bak
+*.old
+*.orig
+*.rej
+
+###############################################
+# OS FILES
+###############################################
+.DS_Store
+Thumbs.db
+
+###############################################
+# IDE / EDITOR DIRECTORIES
+###############################################
+.vscode/
+.vscode/*
+.idea/
+*.iml
+*.ipr
+*.iws
+
+###############################################
+# REDIS / CELERY
+###############################################
+celerybeat-schedule
+celerybeat.pid
+
+###############################################
+# UPLOADS / MEDIA / STATIC (OPTIONAL)
+###############################################
+uploads/
+media/
+mediafiles/
+static/uploads/
